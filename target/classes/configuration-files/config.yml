@@ -1,0 +1,84 @@
+ItemCraft:
+  1: "444"
+  2: "222"
+  3: "313"
+
+HeadHologram:
+  item:
+    type: SKULL_ITEM
+    owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhjZWI4NjMxYWRkN2NiYjU2NWRjYjcwNWYxMjEyMzQ5Y2NjZDc1NTk2NWM0NmE5MjI4NTJjOWZkOTQ4YjRiYiJ9fX0=
+    name: "&6Holograma"
+    lore:
+      - '&7Coloque esse item no chão'
+      - '&7para criar seus hologramas!'
+  fragments:
+    1:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RlMzNjOTVmZWMxYjhkOTg4MjUwZjVmNWIzYTI0ODU3NDI0MzlmYWVhYTc1ZWQ1MDZlYTAxZDc1ZTE3ZjIxIn19fQ==
+      name: "&6Fragmento de Holograma &7(Botão direito)"
+      lore:
+        - '&7Use esse fragmento para craftar'
+        - '&7um holograma!'
+    2:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2YwZTRhNjI5MmJjNWVlNzY0MmNhZTczNzZlZWRhNDQ2YzA0NzcxZTM5MDZmOGMwYjU4NjQxY2IzMWNmNjM3MyJ9fX0=
+      name: "&6Fragmento de Holograma &7(Botão direito)"
+      lore:
+        - '&7Use esse fragmento para craftar'
+        - '&7um holograma!'
+    3:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIyMzk2YmU1ZjM5NzE0NWM0YzY0NzY1MDE5ODkzNWE5OWZmMzhhODM1MmZkNmM3MTYyODNhNDllYTYifX19
+      name: "&6Fragmento de Holograma &7(Botão direito)"
+      lore:
+        - '&7Use esse fragmento para craftar'
+        - '&7um holograma!'
+    4:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdhNmE3NDc0MzdjZDZmMWMyZDAyNDFmM2U0MDAyNjExYzg4YzkyOTIxNTI2YjBmZjE4MDJiNjkyNjQzM2ZlYiJ9fX0=
+      name: "&6Fragmento de Holograma &7(Botão direito)"
+      lore:
+        - '&7Use esse fragmento para craftar'
+        - '&7um holograma!'
+
+Inventory:
+  rows: 4
+  title: "Holograma"
+  items:
+    1:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhjZWI4NjMxYWRkN2NiYjU2NWRjYjcwNWYxMjEyMzQ5Y2NjZDc1NTk2NWM0NmE5MjI4NTJjOWZkOTQ4YjRiYiJ9fX0=
+      name: "&6Holograma"
+      lore:
+        - '&7Dono: &f%owner%'
+      slot: 4
+    2:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQzZDI1MGUyNWJiY2EzYTYyYmU1YjNlZjAyY2ZjYWI2ZGNkYzQyNDg4NGM5YTdkNWNjOTVjOWQwIn19fQ==
+      name: "&a1º linha"
+      lore:
+        - '&7Holograma:'
+        - ''
+        - '%first_hologram%'
+      action: "FIRST_LINE"
+      slot: 21
+    3:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQzZDI1MGUyNWJiY2EzYTYyYmU1YjNlZjAyY2ZjYWI2ZGNkYzQyNDg4NGM5YTdkNWNjOTVjOWQwIn19fQ==
+      name: "&a2º linha"
+      lore:
+        - '&7Holograma:'
+        - ''
+        - '%second_hologram%'
+      action: "SECOND_LINE"
+      slot: 22
+    4:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQzZDI1MGUyNWJiY2EzYTYyYmU1YjNlZjAyY2ZjYWI2ZGNkYzQyNDg4NGM5YTdkNWNjOTVjOWQwIn19fQ==
+      name: "&a3º linha"
+      lore:
+        - '&7Holograma:'
+        - ''
+        - '%third_hologram%'
+      action: "THIRD_LINE"
+      slot: 23

@@ -1,0 +1,8 @@
+name: HeadHolograms
+description: Only a simple head holograms plugin.
+version: 1.0
+author: zPedroo_
+main: com.zpedroo.headholograms.Main
+depend: [HolographicDisplays, WorldGuard]
+commands:
+  headhologram:
